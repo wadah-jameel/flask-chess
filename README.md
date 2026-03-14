@@ -43,3 +43,6 @@ docker-compose up --build
 
 Play: Open your browser and go to http://localhost:5000
 
+
+![flask-chess](images/chess-flask-app-web.png)
+
