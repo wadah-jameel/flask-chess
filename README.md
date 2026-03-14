@@ -4,7 +4,7 @@ Containerized Flask application for a chess game. It uses python-chess for the b
 
 Project Structure
 
-## Create a directory named flask-chess and set up the following structure:
+### Create a directory named flask-chess and set up the following structure:
 
 ```bash
 
@@ -21,11 +21,11 @@ flask-chess/
 
 1. The Backend (app.py)
 
-## "Game Mode" (Player vs Player or Player vs AI). In AI mode, the server will automatically execute a random legal move for Black immediately after Player 1 (White) makes a move.
+### "Game Mode" (Player vs Player or Player vs AI). In AI mode, the server will automatically execute a random legal move for Black immediately after Player 1 (White) makes a move.
 
 2. The Frontend (templates/index.html)
 
-## This uses CDNs for the chess libraries. The pieces are loaded from the chessboardjs.com assets so you don't need to host local images.
+### This uses CDNs for the chess libraries. The pieces are loaded from the chessboardjs.com assets so you don't need to host local images.
 
 3. Dependencies (requirements.txt)
 
